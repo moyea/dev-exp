@@ -22,3 +22,18 @@ html{
    -webkit-overflow-scrolling: touch;
 }
 ```
+
+#### 如何使用命令行打开webstorm
+
+打开WebStorm,  Main Menus > Tools > Create Command-Line Launcher...  确定
+默认会创建 /usr/bin/webstorm 
+之后可以在命令行中打开WebStorm
+```bash
+$> webstorm
+```
+也可以 
+```
+$> webstorm <文件名/目录名> 
+```
+打开文件或目录
+
