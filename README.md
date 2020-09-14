@@ -1,39 +1,10 @@
-# 前端开发中的一些经验
-## 微信开发中一些问题解决
+# Devlopment Experience
 
-#### 微信ios中点击链接或图片出现黑色zhe遮罩层解决方案
-```css
-*{
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-```
+该仓库主要用于记录开发过程中一些问题及经验
 
-#### 取消微信浏览器下拉/上拉显示黑色背景
-```css
-html{
-  position: fixed;
-}
-```
-注意：此种方案可能导致滚动不流畅的情况发生
+## 工具使用
+- [从0开始开发一个node-cli工具](https://github.com/moyea/fe-exp/blob/master/how-to-write-a-node-cli-tool.md)
+- [通过Terminal打开应用](https://github.com/moyea/fe-exp/blob/master/open-tool-use-cli.md)
 
-#### 微信中滚动不流畅解决方案
-```css
-html{
-   -webkit-overflow-scrolling: touch;
-}
-```
-
-#### 如何使用命令行打开webstorm
-
-打开WebStorm,  Main Menus > Tools > Create Command-Line Launcher...  确定
-默认会创建 /usr/bin/webstorm 
-之后可以在命令行中打开WebStorm
-```bash
-$> webstorm
-```
-也可以 
-```
-$> webstorm <文件名/目录名> 
-```
-打开文件或目录
-
+## 经验之谈
+- [微信开发中的一些问题](https://github.com/moyea/fe-exp/blob/master/wechat-exp.md)
