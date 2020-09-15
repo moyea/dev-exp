@@ -13,3 +13,5 @@
 
 ## 经验之谈
 - [微信开发中的一些问题](https://github.com/moyea/fe-exp/blob/master/wechat-exp.md)
+- [fork的仓库如何与原仓库保持一致](https://github.com/moyea/dev-exp/blob/master/fork的仓库如何与原仓库保持一致.md)
+- [npm发布package](https://github.com/moyea/dev-exp/blob/master/npm发布package.md)
