@@ -21,6 +21,6 @@
 
 ## 持续集成
 
-- [Github Actions入门](GitHub Actions入门.md)
-- [GitLab-CI 入门](GitLab-CI 入门.md)
+- [Github Actions入门](GitHub%20Actions入门.md)
+- [GitLab-CI 入门](GitLab-CI%20入门.md)
 
