@@ -19,3 +19,8 @@
 ## 插件开发
 - [从0开发一个Atom插件](从0开发一个Atom插件.md)
 
+## 持续集成
+
+- [Github Actions入门](GitHub Actions入门.md)
+- [GitLab-CI 入门](GitLab-CI 入门.md)
+
