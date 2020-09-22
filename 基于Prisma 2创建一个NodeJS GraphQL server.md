@@ -96,15 +96,15 @@ server.start(options, ({ port }) =>
 $> node graphql-server.js
 ```
 
-之后打开浏览器，访问: http://localhost:8000/playground，我们可以看到这样一个界面:
+之后打开浏览器，访问: http://localhost:8000/playground ，我们可以看到这样一个界面:
 
 ![graph-playground](images/prisma-assets/graph-playground.png)
 
 在左侧输入以下查询:
 
 ```graphql
-query{
-	hello(name: "John")
+query {
+  hello(name: "John")
 }
 ```
 
@@ -112,9 +112,9 @@ query{
 
 ```json
 {
-	"data": {
-		"hello": "Hello John"
-	}
+  "data": {
+    "hello": "Hello John"
+  }
 }
 ```
 
@@ -210,7 +210,7 @@ const typeDefs = `
 
 ```javascript
 const resolvers = {
-	Query: {
+  Query: {
     //...
   },
   Mutation: {
@@ -230,10 +230,10 @@ const resolvers = {
 
 ```graphql
 mutation {
-	createUser(name: 'Tom') {
-		id
-		name
-	}
+  createUser(name: 'Tom') {
+    id
+    name
+  }
 }
 ```
 
@@ -274,15 +274,15 @@ const resolvers = {
 
 ```graphql
 query {
-	user(id: "ckfc3lunt0000fx5y2atg2zry") {
-		id
-		name
-		todos {
-			id
-			text
-			completed
-		}
-	}
+  user(id: "ckfc3lunt0000fx5y2atg2zry") {
+    id
+    name
+    todos {
+      id
+      text
+      completed
+    }
+  }
 }
 ```
 
@@ -290,15 +290,15 @@ query {
 
 ```graphql
 query {
-	users {
-		id
-		name
-		todos {
-			id
-			text
-			completed
-		}
-	}
+  users {
+    id
+    name
+    todos {
+      id
+      text
+      completed
+    }
+  }
 }
 ```
 
