@@ -16,6 +16,7 @@
 - [fork的仓库如何与原仓库保持一致](fork的仓库如何与原仓库保持一致.md)
 - [npm发布package](npm发布package.md)
 - [Prisma 2 入门指南](Prisma%202%20入门指南.md)
+- [基于Prisma 2创建一个NodeJS GraphQL server](基于Prisma%202创建一个NodeJS%20GraphQL%20server.md)
 
 ## 插件开发
 - [从0开发一个Atom插件](从0开发一个Atom插件.md)
