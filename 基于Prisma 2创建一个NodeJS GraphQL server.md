@@ -25,9 +25,9 @@
 
 同时在我们的数据库中，有以下数据：
 
-![prisma-user-table](/Users/ericfeng/github/dev-exp/images/prisma-assets/prisma-user-table.png)
+![prisma-user-table](images/prisma-assets/prisma-user-table.png)
 
-![prisma-todo-table](/Users/ericfeng/github/dev-exp/images/prisma-assets/prisma-todo-table.png)
+![prisma-todo-table](images/prisma-assets/prisma-todo-table.png)
 
 ## 安装依赖
 
@@ -98,7 +98,7 @@ $> node graphql-server.js
 
 之后打开浏览器，访问: http://localhost:8000/playground，我们可以看到这样一个界面:
 
-![graph-playground](/Users/ericfeng/github/dev-exp/images/prisma-assets/graph-playground.png)
+![graph-playground](images/prisma-assets/graph-playground.png)
 
 在左侧输入以下查询:
 
