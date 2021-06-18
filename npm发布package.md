@@ -64,3 +64,19 @@ npm publish
 
 去更新网站上显示的文档。
 
+## 撤销发布
+
+### 撤销单个版本
+
+```shell
+npm unpublish [<@scope>/]<pkg>@<version>
+```
+
+### 撤销整个包
+
+```
+npm unpublish [<@scope>/]<pkg> --force
+```
+
+注: 取消发布需要注意 [npm取消发布协议](https://www.npmjs.com/policies/unpublish)
+
