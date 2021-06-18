@@ -19,6 +19,7 @@
 - [Prisma 2 入门指南](Prisma%202%20入门指南.md)
 - [基于Prisma 2创建一个NodeJS GraphQL server](基于Prisma%202创建一个NodeJS%20GraphQL%20server.md)
 - [echo输出带颜色的文本](echo输出带颜色的文本.md)
+- [贪婪匹配和惰性匹配](贪婪匹配和惰性匹配.md)
 
 ## 插件开发
 - [从0开发一个Atom插件](从0开发一个Atom插件.md)
